@@ -27,3 +27,58 @@ variable :-
 
 task - difference between Let & Var 
 
+Rules for creating variable name :- 
+
+- Variable names are case sensative "a", & "A" is different.
+- Only letter, digit, underscore & special character is allowed, (not even white space).
+- Only letter, underscore or special character should be the 1st character only. 
+- reserved words cannot be a variable name. 
+
+Datatypes in JS :- 
+
+- datatypes is anh attributes associated with a piece of data that tells a computer system how to interprit its valyue. 
+- in datatype we used "typeof" operator to know that what type of data it is. 
+- mainlly in javascript there are 2 types of datatype we used. 
+
+1. Primitive Datatype
+
+- in javascript there are 7 types of primitive datatypes we used :- 
+1. Number - Number are the type of datatype those it contains some numerical values
+2. Boolean - in Boolean datatypes we get boolean value like true/false.
+3. Undefined - data is not define.
+4. Null - in this datatype we get null for the value means nothing. 
+5. bigInt - in bigInt we will get the big integer value (-999999999 to +999999999) on the above.
+6. String - String is a type of datatypes that can hold some character like names or word etc..
+7. Symbol - in Symbol we get one symbol of more than one value.
+
+2. Reference Datatype
+
+- Reference datatype are the type of datatype which can hold multiple element in a single time. 
+- Reference datatypes are -> array, object, Function
+
+1. Array :- 
+
+- array is a datatype where we can store similar type of data is a contigious memory location. 
+- array indexing starts from "0".
+
+ex - let arr = ["ram", "hari", "sita", "bharat"]
+                  0      1       2        3
+
+2. Object :- 
+
+- object is reference type datatype where we can store more than one element in a single entity. 
+- mainly objects are working on (key:value) pair. 
+
+ex. - 
+
+let emp1 = {
+    "name" : "sonu kumar",
+    "age" : "76",
+    "address" : "bhubaneswar",
+    "mobile no." : 546789032,
+    "salary" : 56789332
+}
+
+- in the above example we can see that the left hand side elements are the keys & the right hand side element are values so we can tell that object is a key:value pair structure. 
+
+
