@@ -121,4 +121,48 @@ F   F     F
 4. Unary operator :- increment (++), decrement (--)
 5. comparision operator :- (==, !==, === etc..)
 
+conditional statement:- 
+
+- To implement some condition in the code. 
+- there are 3 types of conditional statement are there 
+1. If condition :- 
+
+- if condition is true then statement is true.
+- syntax :- 
+if(condition){
+    statement
+}
+
+2. if-else condition :- 
+
+- if condition is true then statement is true otherwise false.
+- syntax :- 
+if(condition){
+    statement
+} else {
+    statement
+}
+
+3. if-elif condition 
+
+- its check the condition multiple times , where the condition is true.
+- syntax :- 
+if(condition){
+    statement
+} else if(condition){
+    statement
+} else if(condition){
+    statement
+} else {
+    statement
+}
+
+practice question :- (10 min)
+- write a code which can give grades to students according to their scores :-
+1. 80 - 100 (A)
+2. 70 - 79 (B)
+3. 60 - 69 (c)
+4. 50 - 59 (D)
+5. 0 - 49 (Fail- go to aganawadi)
+
 
