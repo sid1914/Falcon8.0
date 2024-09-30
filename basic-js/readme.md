@@ -165,4 +165,48 @@ practice question :- (10 min)
 4. 50 - 59 (D)
 5. 0 - 49 (Fail- go to aganawadi)
 
+LOOPS in Javascript :- 
+ 
+- loop are used to execute a piece of code again and again. 
+- there are 5 types of loops present in javascript. 
+1. For Loop :- 
+
+- syntax -> 
+for (initialization ; condition ; incre/decre){
+    statement
+}
+- example -> (we want to print web bocket 5 times)
+for (let i = 1; i <= 5; i++){ 
+    console.log("web Bocket") 
+}
+
+working / output :- 
+1. web bocket
+2. web bocket
+3. web bocket
+4. web bocket
+5. web bocket
+
+2. While Loop :- 
+
+- syntax ->
+
+initialization
+while (condition){
+    statement
+    inc/dec
+}
+
+3. Do-While loop :- 
+
+- syntax -> 
+
+do {
+    statement
+    inc/dec;
+} while(condition)
+
+4. For-of Loop :- it iterate on string & array
+5. For-in Loop :- it iterate over the objects
+
 
