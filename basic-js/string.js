@@ -59,5 +59,3 @@ console.log(str.charAt(3))
 
 
 
-
-
